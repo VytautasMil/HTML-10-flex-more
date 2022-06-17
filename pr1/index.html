@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container header-flex">
@@ -16,7 +23,7 @@
         <nav class="main-nav">
           <a href="#" class="nav-link">Home</a>
           <a href="#" class="nav-link">About</a>
-          <a href="#" class="nav-link">Contact us</a>
+          <a href="#" class="nav-link">Contact Us</a>
         </nav>
       </div>
     </header>
@@ -25,11 +32,23 @@
       <div class="container">
         <h3 class="section-subtitle">Services</h3>
         <h2 class="section-title">
-          This is My Expertise, <br />
+          This is My Expertise,<br />
           The Services I'll Provide My Clients
         </h2>
+
         <div class="services-cards">
-          <!-- one card -->
+          <!-- OneCard -->
+          <div class="card">
+            <i class="fa fa-fighter-jet" aria-hidden="true"></i>
+            <h3 class="card-title">UI & UX Design</h3>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <a class="card-link" href="#">Read more &rarr;</a>
+          </div>
+          <!-- /OneCard -->
+          <!-- OneCard -->
           <div class="card">
             <p>Icon</p>
             <h3 class="card-title">UI & UX Design</h3>
@@ -37,9 +56,10 @@
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
-            <a href="card-link">Read more &rarr;</a>
+            <a class="card-link" href="#">Read more &rarr;</a>
           </div>
-          <!-- //one card -->
+          <!-- /OneCard -->
+          <!-- OneCard -->
           <div class="card">
             <p>Icon</p>
             <h3 class="card-title">UI & UX Design</h3>
@@ -47,25 +67,54 @@
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
-            <a href="card-link">Read more &rarr;</a>
+            <a class="card-link" href="#">Read more &rarr;</a>
           </div>
-          <div class="card">
-            <p>Icon</p>
-            <h3 class="card-title">UI & UX Design</h3>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-            <a href="card-link">Read more &rarr;</a>
-          </div>
+          <!-- /OneCard -->
         </div>
+
         <p class="services-footer1">
-          Have any works you want to done by me? <a href="#"> Contact Me</a>
+          Have any works you want to done by me? <a href="#">Contact Me</a>
         </p>
         <p class="services-footer2">
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts.
         </p>
+      </div>
+    </section>
+
+    <section class="section totals-section">
+      <div class="container totals-flex">
+        <!-- TCard -->
+        <div class="t-card">
+          <p class="t-icon">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+          </p>
+          <div>
+            <p class="t-number">3,000</p>
+            <h3 class="t-title">Happy customers</h3>
+          </div>
+        </div>
+        <!-- /TCard -->
+        <!-- TCard -->
+        <div class="t-card">
+          <p class="t-icon"><i class="fa fa-coffee" aria-hidden="true"></i></p>
+          <div>
+            <p class="t-number">3,000</p>
+            <h3 class="t-title">Happy customers</h3>
+          </div>
+        </div>
+        <!-- /TCard -->
+        <!-- TCard -->
+        <div class="t-card">
+          <p class="t-icon">
+            <i class="fa fa-check-square" aria-hidden="true"></i>
+          </p>
+          <div>
+            <p class="t-number">3,000</p>
+            <h3 class="t-title">Happy customers</h3>
+          </div>
+        </div>
+        <!-- /TCard -->
       </div>
     </section>
   </body>
