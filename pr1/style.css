@@ -1,4 +1,27 @@
-/* header */
+/* common css============== */
+.body {
+    background-color: #f8f8f8;
+}
+.section-subtitle {
+    color: #0779e4;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+}
+.section-title {
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+.section {
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+p {
+    color: #999;
+}
+/* header============== */
 
 .header {  
     background-color: #0779e4;
@@ -26,4 +49,19 @@
 }
 .nav-link:hover {
     background-color: #4489ca;
+}
+
+/* services section============================= */
+
+.services-cards {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.services-cards .card {
+    background-color: #fff;
+    flex-basis: 33%;
+    padding: 1.5em;
+}
+.card-title .card-link {
+    color: #0779e4;
 }
