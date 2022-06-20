@@ -1,0 +1,16 @@
+body {
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 1000px;
+}
+.text-2 {
+    position:fixed;
+    /* left: 50px; */
+    bottom: 0;
+    left: 0;
+    border: 1px solid #000;
+    margin: 0;
+}
+.text-3 {
+    border: 1px solid #000;
+}
