@@ -2,15 +2,48 @@ body {
     padding-left: 100px;
     padding-top: 50px;
     margin-bottom: 1000px;
-}
-.text-2 {
-    position:fixed;
-    /* left: 50px; */
+  }
+  .relative {
+    position: relative;
+    min-height: 150px;
+    border: 1px dashed rgb(118, 118, 118);
+  }
+  .text {
+    margin: 0;
+  }
+  .fixed {
+    /* skaiciuoja pozicija nuo ekrano */
+    position: fixed;
     bottom: 0;
     left: 0;
     border: 1px solid #000;
     margin: 0;
-}
-.text-3 {
+  }
+  .absolute {
     border: 1px solid #000;
-}
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .black-bg {
+    margin-top: 40px;
+    background-color: #333;
+    height: 150px;
+    max-width: 300px;
+    position: relative;
+  }
+  .white-cir {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: snow;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease-in-out;
+  }
+  .white-cir:hover {
+    transform: translate(-50%, -50%) scale(1.3);
+  }
